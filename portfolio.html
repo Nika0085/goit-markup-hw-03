@@ -1,187 +1,217 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE-edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Homework_2</title>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" href="./css/styles.css"/>
-    </head>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework_2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
   <body>
     <header class="header">
-      <nav class="header-nav">
-        <a class="logo link" href="./index.html"
-          >Web<span class="logo-black">Studio</span></a
-        >
-        <ul class="header-nav-list list">
-          <li class="header-nav-item">
-            <a class="header-nav-link link" href="./index.html">Agencja</a>
-          </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link link current" href="./portfolio.html"
-              >Portfolio</a
-            >
-          </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link link" href="">Kontakt</a>
-          </li>
-        </ul>
+      <nav class="navigation">
+        <div class="container">
+          <a href="index.html" class="logo no-decoration"
+            ><span class="logo-first">Web</span>Studio</a
+          >
+          <ul class="navigation-list no-decoration">
+            <li class="navigation-list-item">
+              <a href="index.html" class="navigation-link">Agencja</a>
+            </li>
+            <li class="navigation-list-item">
+              <a href="portfolio.html" class="navigation-link link current">Portfolio</a>
+            </li>
+            <li class="navigation-list-item">
+              <a href="index.html" class="navigation-link">Kontakt</a>
+            </li>
+          </ul>
+          <a href="mailto:info@example.com" class="contact-link">
+        
+            info@devstudio.com</a
+          >
+          <a href="tel:+48111111111" class="contact-link">
+        
+            +48 111 111 111
+          </a>
+        </div>
       </nav>
-      <ul class="header-contact-list list">
-        <li class="header-contact-item">
-          <a class="header-contact-link link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="header-contact-item">
-          <a class="header-contact-link link" href="tel:+48111111111"
-            >+48 111 111 111</a
-          >
-        </li>
-      </ul>
     </header>
     <main>
-      <section class="portfolio-section">
-        <ul class="portfolio-btn-list list">
-          <li class="portfolio-btn-item">
-            <button class="portfolio-btn" type="button">Wszystkie</button>
-          </li>
-          <li class="portfolio-btn-item">
-            <button class="portfolio-btn" type="button">Strony</button>
-          </li>
-          <li class="portfolio-btn-item">
-            <button class="portfolio-btn" type="button">Aplikacje</button>
-          </li>
-          <li class="portfolio-btn-item">
-            <button class="portfolio-btn" type="button">Dizajn</button>
-          </li>
-          <li class="portfolio-btn-item">
-            <button class="portfolio-btn" type="button">Marketing</button>
-          </li>
-        </ul>
-      </section>
-      <section class="portfolio-section">
-        <ul class="portfolio-list list">
-          <li class="portfolio-item">
-            <img
-              src="./images/technocrack.jpg"
-              alt="Strona internetowa"
-              width="370"
-              height="294"
-            />
-            <h2 class="portfolio-list-title">Technocrack</h2>
-            <p class="portfolio-list-text">Strona internetowa</p>
-          </li>
-          <li class="portfolio-item">
-            <img
-              src="./images/graphic.jpg"
-              alt="Dizajn"
-              width="370"
-              height="294"
-            />
-            <h2 class="portfolio-list-title">
-              Grafika New Orlean vs Golden Star
-            </h2>
-            <p class="portfolio-list-text">Dizajn</p>
-          </li>
-          <li class="portfolio-item">
-            <img
-              src="./images/seafood.jpg"
-              alt="Restauracja Seafood"
-              width="370"
-              height="294"
-            />
-            <h2 class="portfolio-list-title">Restauracja Seafood</h2>
-            <p class="portfolio-list-text">Aplikacja</p>
-          </li>
-          <li class="portfolio-item">
-            <img
-              src="./images/prime.jpg"
-              alt="Marketing"
-              width="370"
-              height="294"
-            />
-            <h2 class="portfolio-list-title">Projekt Prime</h2>
-            <p class="portfolio-list-text">Marketing</p>
-          </li>
-          <li class="portfolio-item">
-            <img
-              src="./images/boxes.jpg"
-              alt="Aplikacja"
-              width="370"
-              height="294"
-            />
-            <h2 class="portfolio-list-title">Projekt Boxes</h2>
-            <p class="portfolio-list-text">Aplikacja</p>
-          </li>
-          <li class="portfolio-item">
-            <img
-              src="./images/inspiration.jpg"
-              alt="Strona internetowa"
-              width="370"
-              height="294"
-            />
-            <h2 class="portfolio-list-title">Inspiration has no Borders</h2>
-            <p class="portfolio-list-text">Strona internetowa</p>
-          </li>
-          <li class="portfolio-item">
-            <img
-              src="./images/magazine.jpg"
-              alt="Dizajn"
-              width="370"
-              height="294"
-            />
-            <h2 class="portfolio-list-title">Magazyn Limited Edition</h2>
-            <p class="portfolio-list-text">Dizajn</p>
-          </li>
-          <li class="portfolio-item">
-            <img
-              src="./images/lab.jpg"
-              alt="Projekt LAB"
-              width="370"
-              height="294"
-            />
-            <h2 class="portfolio-list-title">Projekt LAB</h2>
-            <p class="portfolio-list-text">Marketing</p>
-          </li>
-          <li class="portfolio-item">
-            <img
-              src="./images/business.jpg"
-              alt="Aplikacja"
-              width="370"
-              height="294"
-            />
-            <h2 class="portfolio-list-title">Growing Business</h2>
-            <p class="portfolio-list-text">Aplikacja</p>
-          </li>
-        </ul>
-      </section>
+      <article class="services section">
+        <div class="container">
+          <ul class="services-list no-decoration">
+            <li>
+              <button type="button" class="services-list-button">
+                <p class="services-list-button-text">Wszystkie</p>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="services-list-button">
+                <p class="services-list-button-text">Strony</p>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="services-list-button">
+                <p class="services-list-button-text">Aplikacje</p>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="services-list-button">
+                <p class="services-list-button-text">Dizajn</p>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="services-list-button">
+                <p class="services-list-button-text">Marketing</p>
+              </button>
+            </li>
+          </ul>
+          <ul class="services-gallery no-decoration">
+            <li class="service-gallery-item">
+              <figure class="services-gallery-picture">
+                <img
+                  src="images/technocrack.jpg"
+                  alt="Strona internetowa"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="services-gallery-description">
+                  <h3 class="services-gallery-description-tittle">Technocrack</h3>
+                  <h4 class="services-gallery-description-type">Strona internetowa</h4>
+                </figcaption>
+              </figure>
+            </li>    
+            <li class="service-gallery-item">  
+              <figure class="services-gallery-picture">
+                <img
+                  src="images/graphic.jpg"
+                  alt="Dizajn"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="services-gallery-description">
+                  <h3 class="services-gallery-description-tittle">Grafika New Orlean vs Golden Star</h3>
+                  <h4 class="services-gallery-description-type">Dizajn</h4>
+                </figcaption>
+              </figure>
+            </li>  
+            <li class="service-gallery-item">      
+              <figure class="services-gallery-picture">
+                <img
+                  src="images/seafood.jpg"
+                  alt="Aplikacja"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="services-gallery-description">
+                  <h3 class="services-gallery-description-tittle">Restauracja Seafood</h3>
+                  <h4 class="services-gallery-description-type">Aplikacja</h4>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="service-gallery-item">    
+              <figure class="services-gallery-picture">
+                <img
+                  src="images/prime.jpg"
+                  alt="Marketing"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="services-gallery-description">
+                  <h3 class="services-gallery-description-tittle">Projekt Prime</h3>
+                  <h4 class="services-gallery-description-type">Marketing</h4>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="service-gallery-item">    
+              <figure class="services-gallery-picture">
+                <img
+                  src="images/boxes.jpg"
+                  alt="Aplikacja"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="services-gallery-description">
+                  <h3 class="services-gallery-description-tittle">Projekt Boxes</h3>
+                  <h4 class="services-gallery-description-type">Aplikacja</h4>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="service-gallery-item">    
+              <figure class="services-gallery-picture">
+                <img
+                  src="images/inspiration.jpg"
+                  alt="Strona internetowa"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="services-gallery-description">
+                  <h3 class="services-gallery-description-tittle">Inspiration has no Borders</h3>
+                  <h4 class="services-gallery-description-type">Strona internetowa</h4>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="service-gallery-item">    
+              <figure class="services-gallery-picture">
+                <img
+                  src="images/magazine.jpg"
+                  alt="Dizajn"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="services-gallery-description">
+                  <h3 class="services-gallery-description-tittle">Magazyn Limited Edition</h3>
+                  <h4 class="services-gallery-description-type">Dizajn</h4>
+                </figcaption>
+              </figure>
+            </li>  
+            <li class="service-gallery-item">    
+              <figure class="services-gallery-picture">
+                <img
+                  src="images/lab.jpg"
+                  alt="Marketing"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="services-gallery-description">
+                  <h3 class="services-gallery-description-tittle">Projekt LAB</h3>
+                  <h4 class="services-gallery-description-type">Marketing</h4>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="service-gallery-item">    
+              <figure class="services-gallery-picture">
+                <img
+                  src="images/business.jpg"
+                  alt="Aplikacja"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="services-gallery-description">
+                  <h3 class="services-gallery-description-tittle">Growing Business</h3>
+                  <h4 class="services-gallery-description-type">Aplikacja</h4>
+                </figcaption>
+              </figure>
+            </li>  
+          </ul>
+        </div>  
+      </article>       
     </main>
     <footer class="footer">
-      <a class="logo link" href="./index.html"
-        >Web<span class="logo-white">Studio</span></a
-      >
-      <address class="footer-contact">
-        <ul class="footer-contact-list list">
-          <li class="footer-contact-item">
-            <a
-              class="footer-contact-link address link"
-              >m. Warszawa, Aleje Jerozolimskie 21</a
-            >
-          </li>
-          <li class="footer-contact-item">
-            <a class="footer-contact-link link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="footer-contact-item">
-            <a class="footer-contact-link link" href="tel:+48111111111"
-              >+48 111 111 111</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <address class="contact">
+          <a href="index.html" class="logo no-decoration"><span class="logo-first">Web</span><span class="logo-second">Studio</span></a>
+          <p class= "contact-place">m. Warszawa, aleje Jerozolimskie 21</p>
+          <a href="mailto:info@example.com" class="contact-link">info@example.com</a>
+          <a href="tel:+48111111111" class="contact-link"> +48 111 111 111 </a>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
