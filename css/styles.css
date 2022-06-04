@@ -65,11 +65,13 @@
   
   .navigation-list-item:not(:last-child) {
     margin-right: 46px;
+    color: var(--main-color);
   }
   
   .header .contact-link:not(:last-child) {
     margin-left: auto;
     margin-right: 50px;
+    color: var(--main-color);
   }
   
   .navigation-link:hover,
@@ -125,8 +127,11 @@
   .services-list-button {
     font-size: 16px;
     text-align: center;
+    color: #212121;
+    line-height: 26px;
     font-weight: 500;
     letter-spacing: 0.03em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     background: #f5f4fa;
     border-radius: 4px;
     border: 0;
@@ -169,7 +174,7 @@
     max-width: 370px;
   }
   
-  .service-gallery-item:nth-child(-n + 6) {
+  .services-gallery-item:nth-child(-n + 6) {
     margin-bottom: 30px;
   }
   
@@ -179,7 +184,7 @@
     margin-right: -30px;
   }
   
-  .service-gallery-item {
+  .services-gallery-item {
     flex-basis: calc((100% - 90px) / 3);
   }
   
@@ -216,8 +221,8 @@
   
   .hero-button:hover,
   .hero-button:focus {
-    color: #212121;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: var(--main-color);
     font-size: 16px;
   }
   
@@ -354,14 +359,6 @@
   .team-gallery-item:not(:first-child) {
     margin-left: 30px;
   }
-
-  .clients-banner {
-    text-align: center;
-    letter-spacing: 0.03em;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-  }
   
   .footer {
     background-color: #2f303a;
@@ -390,7 +387,6 @@
     margin-bottom: 60px;
   }
   
-
   .logo {
     font-size: 26px;
     line-height: 1.2;
@@ -403,6 +399,11 @@
   
   .logo-first {
     color: var(--main-color);
+    font-size: 26px;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    line-height: 30.52px;
   }
   
   .contact-link:hover,
@@ -446,7 +447,7 @@
   }
   
   .social-links_link-hover .social-links_link:focus {
-    color: var(--main color);
+    color: var(--main-color);
   }
   
   .social-list {
