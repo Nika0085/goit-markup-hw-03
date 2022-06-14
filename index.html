@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE-edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Homework_1</title>
+        <title>WebStudio</title>
         <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
@@ -17,17 +17,18 @@
     </head>
     <body>
         <header class="header"> 
-            <nav class="navigation">
                 <div class="container">
                     <h3><a href="index.html" class="logo no-decoration"><span class="logo-first">Web</span>Studio</a></h3>
-                        <ul class="navigation-list no-decoration">
+                    <nav class="navigation">  
+                    <ul class="navigation-list no-decoration">
                         <li class="navigation-list-item"><a href="index.html" class="navigation-link">Agencja</a></li>
                         <li class="navigation-list-item"><a href="portfolio.html" class="navigation-link">Portfolio</a></li>
-                        <li class="navigation-list-item"><a href="Kontakt" class="navigation-link">Kontakt</a></li></ul>
-                        <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
-                        <a href="tel:+48111111111" class="contact-link">+48 111 111 111</a>
+                        <li class="navigation-list-item"><a href="Kontakt" class="navigation-link">Kontakt</a></li></ul></nav>
+                    <ul class="menu">
+                        <li class="menu-item"><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
+                        <li><a href="tel:+48111111111" class="contact-link">+48 111 111 111</a></li>
+                    </ul>
                 </div>
-            </nav>
         </header> 
         <main>
             <section class="hero section">
@@ -38,28 +39,31 @@
                     </div>
                 </article>
             </section> 
-            <section class="about-us section">
+            <section class="lorem section">
                 <div class="container">
-                    <ul class="about-us-list no-decoration">
-                        <li class="about-us-item">
-                            <h4 class="about-us-tittle">LOREM IPSUM</h4>
-                                <h5 class="about-us-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</h5></li>
-                        <li class="about-us-item">
-                            <h4 class="about-us-tittle">LOREM IPSUM</h4>
-                                <h5 class="about-us-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</h5></li>
-                        <li class="about-us-item">
-                            <h4 class="about-us-tittle">LOREM IPSUM</h4>
-                                <h5 class="about-us-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</h5></li>
-                        <li class="about-us-item">
-                            <h4 class="about-us-tittle">LOREM IPSUM</h4>
-                                <h5 class="about-us-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</h5></li>
+                    <ul class="lorem-list no-decoration">
+                        <li class="lorem-item">
+                            <h4 class="lorem-tittle">LOREM IPSUM</h4>
+                                <p class="lorem-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p></li>
+                        <li class="lorem-item">
+                            <h4 class="lorem-tittle">LOREM IPSUM</h4>
+                                <p class="lorem-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p></li>
+                        <li class="lorem-item">
+                            <h4 class="lorem-tittle">LOREM IPSUM</h4>
+                                <p class="lorem-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p></li>
+                        <li class="lorem-item">
+                            <h4 class="lorem-tittle">LOREM IPSUM</h4>
+                                <p class="lorem-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p></li>
                     </ul>
-                        <h2 class="about-us-banner">Czym się zajmujemy</h2>
-                        <ul class="about-us-gallery no-decoration">
-                            <li class="about-us-gallery-item"><img alt="user's writing on the keyboard" src="images/keyboard.jpg" width="370" height="294"></li>
-                            <li class="about-us-gallery-item"><img alt="person's using phone and laptop" src="images/phone.jpg" width="370" height="294"></li>
-                            <li class="about-us-gallery-item"><img alt="user's looking at color palette" src="images/palette.jpg" width="370" height="294"></li>
-                    </ul>
+                </div>
+            <section class="about-us-section">
+                            <div class="container"><h2 class="about-us-item">Czym się zajmujemy</h2>
+                                <ul class="about-us-gallery no-decoration">
+                                    <li class="about-us-gallery-item"><img alt="user's writing on the keyboard" src="images/keyboard.jpg" width="370" height="294"></li>
+                                    <li class="about-us-gallery-item"><img alt="person's using phone and laptop" src="images/phone.jpg" width="370" height="294"></li>
+                                    <li class="about-us-gallery-item"><img alt="user's looking at color palette" src="images/palette.jpg" width="370" height="294"></li>
+                                </ul>
+                </section>
                 </div>
             </section>
             <section class="team-section">
@@ -71,7 +75,7 @@
                                 <img alt="Product Designer" src="images/productdesigner.jpg" width="270" height="260">
                                     <figcaption class="team-description">
                                         <h3 class="team-description-name">John Doe</h3>
-                                        <h5 class="team-description-job">Product Designer</h5>
+                                        <p class="team-description-job">Product Designer</p>
                                     </figcaption>
                             </figure>
                         </li>
@@ -80,7 +84,7 @@
                                 <img alt="Frontend Developer" src="images/frontenddeveloper.jpg" width="270" height="260">
                                 <figcaption class="team-description">
                                         <h3 class="team-description-name">John Doe</h3>
-                                        <h5 class="team-description-job">Frontend Developer</h5>
+                                        <p class="team-description-job">Frontend Developer</p>
                                 </figcaption>
                             </figure>  
                         </li>
@@ -89,7 +93,7 @@
                                 <img alt="Marketing" src="images/marketing.jpg" width="270" height="260">
                                     <figcaption class="team-description">
                                         <h3 class="team-description-name">John Doe</h3>
-                                        <h5 class="team-description-job">Marketing</h5>
+                                        <p class="team-description-job">Marketing</p>
                                     </figcaption>
                             </figure>
                         </li>                
@@ -98,7 +102,7 @@
                                 <img alt="UI Designer" src="images/uidesigner.jpg" width="270" height="260">
                                     <figcaption class="team-description">
                                         <h3 class="team-description-name">John Doe</h3>
-                                        <h5 class="team-description-job">UI Designer</h5>
+                                        <p class="team-description-job">UI Designer</p>
                                     </figcaption>
                             </figure>
                         </li>  
@@ -115,6 +119,6 @@
                 <a href="tel:+48111111111" class="contact-link"> +48 111 111 111 </a>
               </address>
             </div>
-        </footer>
-    </body>
-</html>
+          </footer>
+        </body>
+      </html>
