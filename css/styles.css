@@ -696,11 +696,18 @@ color: var(--main-color);
   margin-right: 0px;
 }
 
-.gallery-gallery-item {
+.gallery-item {
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.gallery-item {
   flex-basis: calc((100% - 0px) / 3);
 }
 
 .gallery-picture {
   margin-top: 20px;
   display: block;
+  margin-left: 0%;
+  margin-right: 0%;
 }
