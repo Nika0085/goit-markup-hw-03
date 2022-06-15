@@ -388,6 +388,7 @@ color: var(--main-color);
 
 .team-gallery-item:not(:first-child) {
   margin-left: 30px;
+  margin-bottom: 70px;
 }
 
 .footer {
